@@ -1,25 +1,15 @@
-# README
+Rails will provide api routing for basic CRUD ops: (list, instance, new, create, update, delete)
+  GET /api/contacts
+  GET /api/contacts/:id
+  POST /api/contacts/new
+  PUT /api/contacts/:id
+  DELETE /api/contacts/:id
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+The contact model should provide info, inclusive of:
+  name
+  company
+  info
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-Test 
+<!-- The user model should provide info, inclusive of:
+  name -->
